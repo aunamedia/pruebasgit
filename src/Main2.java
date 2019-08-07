@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main2 {
 
 	public static void main(String[] args) {
-		/*Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		int h,m,s;
 		h = sc.nextInt();
 		m = sc.nextInt();
@@ -19,7 +19,7 @@ public class Main2 {
 		if(s >= 60) {
 			s = 0;
 		}
-		System.out.println("Hora " + h+":"+m+":"+s);*/
+		System.out.println("Hora " + h+":"+m+":"+s);
 		int r = 1;
 		int c = 2;
 		String[][] col = new String[2][];
