@@ -3,10 +3,14 @@ import java.util.Scanner;
 public class Main2 {
 
 	public static void main(String[] args) {
+		// poner una hora
 		Scanner sc = new Scanner(System.in);
 		int h,m,s;
+		System.out.println("Horas: ");
 		h = sc.nextInt();
+		System.out.println("Minutos: ");
 		m = sc.nextInt();
+		System.out.println("Segundos: ");
 		s = sc.nextInt();
 		sc.close();
 		
