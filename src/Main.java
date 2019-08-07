@@ -10,7 +10,7 @@ public class Main {
 		Poligono cu = new Cuadrado();
 		cu.area();
 		//SalidaConsola s = new SalidaConsola();
-		/*
+		
 		int n = 0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Iniciando APP");
@@ -19,13 +19,14 @@ public class Main {
 		sc.close();
 
 		System.out.println(n);
-		System.out.println("El doble de ese número es ");
-		*/
-		/*
-		Manipulacion m = new Manipulacion();
+		Manipulacion m = new Manipulacion(n);
+		System.out.println("El doble de "+n+" es ");
+		
+		
 		System.out.println(m.doble());
+		System.out.println("Y la mitad de "+n+" es:");
 		System.out.println(m.mitad());
-		*/
+		
 		//Conversiones conv = new Conversiones();
 		//s.s(conv.HEX_IP("0319320A000000000000"));
 		//s.s(conv.DEC("07E2"));
